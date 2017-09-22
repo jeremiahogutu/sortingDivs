@@ -1,0 +1,26 @@
+div.connect-cat {
+    float: left;
+    width: 125px;
+    height: 130px;
+    overflow: hidden;
+    margin: 0 16px 20px 16px;
+    border: 1px solid #ffffff;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+div.connect-cat:hover {
+    border: 1px solid #dedede;
+    -webkit-background-clip: padding-box;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.398438) 0px 4px 12px 0px, rgba(255, 255, 255, 0.496094) 0px 1px 0px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.398438) 0px 4px 12px 0px, rgba(255, 255, 255, 0.496094) 0px 1px 0px 0px inset;
+    background-clip: padding-box;
+}
+
+#box{
+    margin:20px;
+}
